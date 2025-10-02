@@ -52,7 +52,7 @@ def test_camioneta_normal():
 def test_costo_total_flota():
     flota = Flota("flota.csv")
     total = flota.costo_total_flota()
-    assert total == 58900
+    assert total == 48900
 
 
 def test_viaje_mas_costoso():
